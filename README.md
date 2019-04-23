@@ -11,18 +11,26 @@
 - TensorFlow-gpu v0.12.1
 - MeCab-python3
 - slackbot
+
 以下でtensorflow,MeCab-python3,slackbotをインストール
+
 `pip install -r requirements.txt`
+
 MeCab-python3をインストールする前にswigをインストールする必要あり
+
 `conda install -c anaconda swig`
+
 MeCab本体は別でインストールする必要あり。[Mecabの導入方法](http://taku910.github.io/mecab/)
 
 ## 1.データの前処理
 - 以下、Neural_seq2seq_Modelディレクトリ
 ### 1.1 データの取得
 [こちらのツール](https://github.com/knok/make-meidai-dialogue)から１対１対応の会話コーパスを取得(ライセンスはオリジナルに従います。)
+
 `mv sequence.txt ./predata/`
+
 以下のスクリプトを実行
+
 `$python data_prepro.py`
 
 コードの関係上、`input.txt` と `output.txt`に入出力となる発話を分ける。
@@ -42,9 +50,10 @@ MeCab本体は別でインストールする必要あり。[Mecabの導入方法
 以下のスクリプトでモデルの学習とデータの辞書の作成
 
 `python transrate.py`
+
 100step毎にモデルを保存しているので`ctrl+C`で一旦学習を止めても、止めたところからまた学習することができる。
 
-#Slackボットに学習したモデルを実装
+# Slackボットに学習したモデルを実装
 -以下、Slack_botディレクトリ
 ## 1. SlackでBotアカウントの作成
 - Slackのワークスペースの新規作成は[こちら](https://slack.com/create#email)
@@ -52,6 +61,7 @@ MeCab本体は別でインストールする必要あり。[Mecabの導入方法
 ## 2. Botに学習したモデルを実装
 - アプリを検索する>カスタムインテグレーション> Bots からBotの名前設定などを行い、発行したAPIトークンを`slackbot_setting.py`の`API_TOKEN`に入力
 - `Neural_seq2seq_Model/data`ディレクトリをSlack_bot以下のディレクトリにコピー
+
 `python run.py`で実行。SlackのBotアカウントがオンラインになればOK
 
 
