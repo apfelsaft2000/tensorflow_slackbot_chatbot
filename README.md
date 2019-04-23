@@ -62,7 +62,7 @@ MeCab本体は別でインストールする必要あり。[Mecabの導入方法
 - アプリを検索する>カスタムインテグレーション> Bots からBotの名前設定などを行い、発行したAPIトークンを`slackbot_setting.py`の`API_TOKEN`に入力
 - `Neural_seq2seq_Model/data`ディレクトリをSlack_bot以下のディレクトリにコピー
 
-`python run.py`で実行。SlackのBotアカウントがオンラインになればOK
+`python run.py`で実行
 
 
 # botと会話してみる
