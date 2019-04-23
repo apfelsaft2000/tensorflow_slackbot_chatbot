@@ -1,6 +1,6 @@
 # TensorflowとSlackで日本語雑談チャットbotの実装
 
-##参照
+## 参照
 - 今回tensorflowのseq2seqモデルを実装する上で参考にしたソースコードは[こちら](https://www.tensorflow.org/tutorials/)
 - 学習データは[名大会話コーパス](https://mmsrv.ninjal.ac.jp/nucc/)を使用
 - slcakの基本操作やbotの設定については[こちら](https://qiita.com/kunitaya/items/690028e33ba5c666f3e2)
@@ -55,7 +55,7 @@ MeCab本体は別でインストールする必要あり。[Mecabの導入方法
 `python run.py`で実行。SlackのBotアカウントがオンラインになればOK
 
 
-#botと会話してみる
+# botと会話してみる
 
 # LICENCE
 The license of the used data set follows the original.
