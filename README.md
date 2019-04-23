@@ -23,7 +23,7 @@ MeCab-python3をインストールする前にswigをインストールする必
 MeCab本体は別でインストールする必要あり。[Mecabの導入方法](http://taku910.github.io/mecab/)
 
 ## 1.データの前処理
-- 以下、Neural_seq2seq_Modelディレクトリ
+以下、Neural_seq2seq_Modelディレクトリでの作業
 ### 1.1 データの取得
 [こちらのツール](https://github.com/knok/make-meidai-dialogue)から１対１対応の会話コーパスを取得(ライセンスはオリジナルに従います。)
 
@@ -54,7 +54,7 @@ MeCab本体は別でインストールする必要あり。[Mecabの導入方法
 100step毎にモデルを保存しているので`ctrl+C`で一旦学習を止めても、止めたところからまた学習することができる。
 
 # Slackボットに学習したモデルを実装
-- 以下、Slack_botディレクトリ
+以下、Slack_botディレクトリでの作業
 ## 1. SlackでBotアカウントの作成
 - Slackのワークスペースの新規作成は[こちら](https://slack.com/create#email)
 
