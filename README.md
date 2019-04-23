@@ -54,7 +54,7 @@ MeCab本体は別でインストールする必要あり。[Mecabの導入方法
 100step毎にモデルを保存しているので`ctrl+C`で一旦学習を止めても、止めたところからまた学習することができる。
 
 # Slackボットに学習したモデルを実装
--以下、Slack_botディレクトリ
+- 以下、Slack_botディレクトリ
 ## 1. SlackでBotアカウントの作成
 - Slackのワークスペースの新規作成は[こちら](https://slack.com/create#email)
 
