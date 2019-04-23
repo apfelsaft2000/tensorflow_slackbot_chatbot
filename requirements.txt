@@ -1,0 +1,4 @@
+nltk==3.3
+tensorflow-gpu==0.12.1
+slackbot
+mecab-python3
