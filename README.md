@@ -70,6 +70,9 @@ MeCab本体は別でインストールする必要あり。[Mecabの導入方法
 
 ![talk_bot](https://user-images.githubusercontent.com/49854447/56629033-0b6fb880-6687-11e9-9d02-232fa8b4e75a.png)
 
+会話になってない部分もありますが、返事を返してくれることができました。
+
+
 # LICENCE
 The license of the used data set follows the original.
 
