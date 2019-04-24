@@ -68,7 +68,7 @@ MeCab本体は別でインストールする必要あり。[Mecabの導入方法
 # botと会話してみる
 <br>
 
-![talk_bot](https://github.com/apfelsaft2000/tensorflow_slackbot_chatbot/issues/1#issue-436470405.png)
+![talk_bot](https://user-images.githubusercontent.com/49854447/56629033-0b6fb880-6687-11e9-9d02-232fa8b4e75a.png)
 
 # LICENCE
 The license of the used data set follows the original.
